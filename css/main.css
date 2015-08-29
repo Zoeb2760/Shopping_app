@@ -9,7 +9,7 @@ div {
 
 .top {
 	color: green;
-	border: 15px;
+	border:15px;
 	border-width: 100%;
 	border-style: solid;
 	text-align: center;
@@ -26,6 +26,7 @@ div {
 .top h4 {
 	font-size: 30px;
 	color: grey;
+
 }
 h3 {
 	padding-left: 4em;
@@ -41,14 +42,11 @@ ul {
 .appear {
 	float:right;
 	padding-right: 2em;
-	padding-top:  .5em;
+	padding-top:  .2em;
 	color: black;
-}
-
-     
-	
 
 }
+
 h5 {
 	
 	
@@ -57,3 +55,53 @@ h5 {
     text-align:center;
 	margin-top: 13em;
 }
+
+
+body {
+	background-color: yellow
+}
+
+
+
+
+@media only screen and  (max-width: 700px) {
+  .top {
+        
+        max-width: 100%;
+	    height: auto;
+  }
+  .top h4 {
+  	font-size: 1em;
+
+  }
+  img {
+  	width:100%;
+  	height: auto;
+  }
+}
+    @media only screen and (max-width: 700px) {
+    
+    .appear {
+        font-size: .5em;
+        padding-right: 0em;
+	    padding-top:  .7em;
+	    color: purple;
+
+    }
+    .list {
+        font-size: .5em;
+
+    }
+    
+
+}
+    @media only screen and (max-width: 700px) {
+.button {
+font-size:.8em;
+  padding 1em 0;
+}
+}
+
+
+
+
