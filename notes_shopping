@@ -1,0 +1,26 @@
+
+
+<li> &#10007 eggs</li>
+			<li> &#10007 bread </li>
+			<li> &#10007 milk <li>
+			</ul>
+
+
+
+
+			li> &#10004 eggs</li>
+			<li> &#10004 bread </li>
+			<li> &#10004 milk <li>
+
+
+
+			<div class="form-group">
+		<form>
+                  <input type="text"> 
+        </form>  
+        <div>        	
+
+
+        function displayVals() {
+  var singleValues = $( "#single" ).val();
+  var multipleValues = $( "#multiple" ).val()
