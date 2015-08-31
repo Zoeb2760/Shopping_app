@@ -51,10 +51,7 @@ ul {
     	padding-left: 75px;
     }
 
-h5 {
-	
-	
-}
+
 .clear {
     text-align:center;
 	margin-top: 13em;
@@ -69,10 +66,15 @@ body {
 #mybutton {
 	display: inline-block;
 	margin-left: 25em;
+}
 	
+#clearbutton {
+	display: inline-block;
+	margin-bottom:; 20em;
+}	
+
     
 
-}
 
 }
 #mybutton:hover,
@@ -115,7 +117,7 @@ body {
 
 }
     @media only screen and (max-width: 700px) {
-.clear {
+#clear {
 font-size:.8em;
   padding 1em 0;
 }
