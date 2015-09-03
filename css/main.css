@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+background-color: yellow;
 }
 
 
@@ -17,9 +17,7 @@ div {
 
 }
 
-ul {
 
-}
 
 .top li {
 	list-style-type: none;
@@ -27,11 +25,13 @@ ul {
 	
 
 }
+
 .top h4 {
 	font-size: 30px;
 	color: grey;
 
 }
+
 h3 {
 	padding-left: 4em;
 	padding-top: 4em; 
@@ -43,7 +43,8 @@ ul {
 	color:blue;
 }
 	li:hover,
-    li :focus {
+	li:focus
+     {
  
   background: pink;
   color   : #FFF;
@@ -51,52 +52,76 @@ ul {
 }
 
 .appear {
-	float:right;
+	float: right;
+
 	padding-right: 2em;
 	padding-top:  .2em;
 	color: black;
 
 }
 
-.form-group {
-    	padding-left: 75px;
-    }
+ #myform {
+   
+
+  width  : 35px;
+  height : 55px;
+  margin-left:5em;
 
 
-.clear {
-    text-align:center;
-	margin-top: 13em;
+
+}
+ 
+ 
+
+
+#clearbutton {
+	width: 170px;
+	height: 55px;
+	margin-right: auto;
+	margin-left: auto;
+   
+	
 	
 }
 
 
 body {
-	background-color: yellow
+	
+	
 }
 
 #mybutton {
-	display: inline-block;
-	position: absolute;
 	
-	width: 15em;
-	margin-left: 25em;
+	
+	margin-left: 22em;
+	margin-top: .25em;
+
 }
 	
 #clearbutton {
-	display: inline-block;
-	margin-bottom:; 20em;
-	width: 12em;
+	
+	display: block;
+	margin-left: 45em;
+	margin-top: 15em;
+
+	
+
 }	
 
-    
-
+.list{
 
 }
+
+
+
+
 #mybutton:hover,
-#mybutton:focus {
+#clearbutton:hover
+
+ {
   outline   : none;
-  background: #000;
-  color   : #FFF;
+  color   : black;
+  background: #CF4647;
 }
 
 
@@ -117,7 +142,8 @@ body {
   	height: auto;
   }
 }
-    @media only screen and (max-width: 700px) {
+
+  @media only screen and (max-width: 700px) {
     
     .appear {
         font-size: .5em;
@@ -133,7 +159,7 @@ body {
 
 
 }
-    @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 700px) {
 #clear {
 font-size:.8em;
   padding 1em 0;
