@@ -17,6 +17,10 @@ div {
 
 }
 
+ul {
+
+}
+
 .top li {
 	list-style-type: none;
 	display: inline;
@@ -37,6 +41,13 @@ ul {
 	list-style-type: none;
 	padding-left: 5em;
 	color:blue;
+}
+	li:hover,
+    li :focus {
+ 
+  background: pink;
+  color   : #FFF;
+
 }
 
 .appear {
@@ -65,12 +76,16 @@ body {
 
 #mybutton {
 	display: inline-block;
+	position: absolute;
+	
+	width: 15em;
 	margin-left: 25em;
 }
 	
 #clearbutton {
 	display: inline-block;
 	margin-bottom:; 20em;
+	width: 12em;
 }	
 
     
@@ -83,6 +98,8 @@ body {
   background: #000;
   color   : #FFF;
 }
+
+
 
 
 @media only screen and  (max-width: 700px) {
