@@ -115,3 +115,28 @@ Add x so items can be deleted
   color: black;
 
 }
+
+
+Add($('input').val());
+ $('.list').find('input').val(''); 
+}));
+
+
+
+// clearing the list input
+    // to clear the form
+
+
+    // to allow user to add to list from enter key
+
+    $(document).on("keypress", (function(e) { 
+    if(e.which == 13) {
+      Add($('input').val());
+    $('.list').find('input').val(''); 
+  }
+    
+    /*$("#myform").on ('click')  
+    (function  () {
+    var items = $('input').val();
+    $('ul').append('<li>'+items+'</li>');
+  })); */

@@ -107,7 +107,7 @@ body {
 	
 	margin-left: 22em;
 	margin-top: .25em;
-
+   
 }
 	
 #clearbutton {
@@ -176,9 +176,8 @@ font-size:.8em;
 
 
    width: 100%;
-   min-width: 50px;  // add this if you want
-   max-width: 300px; // add this if  you want, adjust accordingly
-}
+   min-width: 50px;  
+   max-width: 300px; /
 }
 
 
